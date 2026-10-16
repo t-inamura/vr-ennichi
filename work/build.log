@@ -1,0 +1,58 @@
+/Users/inamura/Documents/Codex/2026-09-19/belnder-3d-50-200-google-https/outputs/build_ennichi.py:95: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.diffuse_color=(*color,1);m.use_nodes=True
+Built stall 1 わたあめ
+Built stall 2 りんご飴
+Built stall 3 焼きそば
+Built stall 4 射 的
+Built stall 5 たこ焼き
+Built stall 6 金魚すくい
+Built stall 7 かき氷
+Built stall 8 スーパーボール
+Built stall 9 チョコバナナ
+Built stall 10 たい焼き
+Built stall 11 焼き鳥
+Built stall 12 ヨーヨーつり
+Built stall 13 お好み焼き
+Built stall 14 輪 投 げ
+Built stall 15 からあげ
+Built stall 16 くじびき
+Built stall 17 フライドポテト
+Built stall 18 焼とうもろこし
+Built stall 19 いか焼き
+Built stall 20 スマートボール
+Built stall 21 みたらし団子
+Built stall 22 缶たおし
+Built stall 23 クレープ
+Built stall 24 あひるすくい
+Built stall 25 ベビーカステラ
+Built stall 26 焼せんべい
+Built stall 27 フランクフルト
+Built stall 28 水鉄砲
+Built stall 29 冷やしきゅうり
+Built stall 30 コルク的あて
+Built stall 31 レモネード
+Built stall 32 千本引き
+Built stall 33 ラムネ
+Built stall 34 冷たいお茶
+Built stall 35 生ビール
+Built stall 36 お め ん
+Built stall 37 焼おにぎり
+Built stall 38 かざぐるま
+Built stall 39 焼きいも
+Built stall 40 駄 菓 子
+Built stall 41 いちご飴
+Built stall 42 ぶどう飴
+Built stall 43 ソフトクリーム
+Built stall 44 おもちゃ
+Built stall 45 フルーツカップ
+Built stall 46 宝石すくい
+Built stall 47 ほたて焼き
+Built stall 48 お手玉投げ
+/Users/inamura/Documents/Codex/2026-09-19/belnder-3d-50-200-google-https/outputs/build_ennichi.py:350: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('Dusk | Poly Haven kloppenheim_06_puresky');scene.world=world;world.use_nodes=True
+Info: Packed 5 file(s)
+Info: Saved as "ennichi_50m.blend"
+SCENE_SAVED 11158 objects
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:49:19)
+
+Blender quit

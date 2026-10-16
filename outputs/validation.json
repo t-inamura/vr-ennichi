@@ -1,0 +1,42 @@
+{
+  "blender": "5.2.2 LTS",
+  "stalls": 48,
+  "unique_types": 48,
+  "route_m": 200.0,
+  "width_m": 6,
+  "units": "m",
+  "objects": 11177,
+  "walk_eye_m": 1.65,
+  "textures_packed": true,
+  "device": "GPU",
+  "crowds": false,
+  "physics_collision": false,
+  "all_fonts_baked_to_mesh": true,
+  "end_frame": 4801,
+  "blend_sha256": "80f4250595674cb13faeeb7904b8536f2a2963d1924f33a440e32bb53bea4413",
+  "renders": {
+    "01_overview.png": [
+      1600,
+      1000
+    ],
+    "02_walkway.png": [
+      1600,
+      1000
+    ],
+    "03_yagura.png": [
+      1600,
+      1000
+    ],
+    "04_food.png": [
+      1600,
+      1000
+    ],
+    "05_plan.png": [
+      1400,
+      1400
+    ]
+  },
+  "visual_review": "All five camera compositions checked; supports, placards, foliage, plan framing and flush drain placement corrected.",
+  "viewport_relationship_lines": false,
+  "viewport_change": "Relationship lines hidden in all 3D views; confirmed and saved through the open Blender app."
+}

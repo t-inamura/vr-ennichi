@@ -1,0 +1,16 @@
+# Local operating-system files and reproducible Python caches only.
+.DS_Store
+._*
+__pycache__/
+*.py[cod]
+work/output_script_cache/
+
+# Local credentials and editor/session state are never project deliverables.
+.env
+.env.*
+!.env.example
+.venv/
+.codex/
+.agents/
+
+# Intentionally track work/, logs, previews, previous models and .blend1 backups.

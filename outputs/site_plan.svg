@@ -1,0 +1,446 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1320" viewBox="0 0 2000 1320" role="img" aria-labelledby="title desc">
+<title id="title">縁日の会場案内図：50m四方、一周200m、48店</title>
+<desc id="desc">中央やぐらを囲む幅6mの四角い通路と48店の案内図。下部に南東北西の店舗一覧。</desc>
+<defs><marker id="arr" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto-start-reverse"><path d="M0 0L6 3L0 6" fill="none" stroke="#596877"/></marker></defs>
+<style>text{font-family:"Hiragino Sans","Noto Sans CJK JP","Yu Gothic",sans-serif;fill:#243b43}.title{font-size:36px;font-weight:700}.sub{font-size:19px;fill:#607178}.small{font-size:15px;fill:#607178}.label{font-size:20px;font-weight:600}.fine{font-size:13px}.id{font-size:10px;font-weight:700;fill:white;text-anchor:middle;dominant-baseline:central}.legend{font-size:18px}</style>
+<rect x="0.00" y="0.00" width="2000.00" height="1320.00" rx="0" fill="#faf8f2"/>
+<text x="70.00" y="72.00" class="title">夏の縁日　会場案内図</text>
+<text x="70.00" y="108.00" class="sub">四辺の通路をぐるりと一周。48店と中央の盆踊りやぐら。</text>
+<text x="1930.00" y="72.00" class="sub" text-anchor="end">ENNICHI / 50 m SQUARE</text>
+<text x="1930.00" y="108.00" class="small" text-anchor="end">店舗番号・配置は Blender 生成スクリプトと対応</text>
+<rect x="70.00" y="145.00" width="980.00" height="718.00" rx="22" fill="#f1f2e8"/>
+<rect x="296.00" y="231.00" width="528.00" height="528.00" rx="4" fill="#e6e5da"/>
+<circle cx="368.00" cy="808.60" r="23.00" fill="#b8cba2" stroke="#8ea37f"/>
+<circle cx="358.00" cy="803.60" r="12.00" fill="#c6d4b4"/>
+<circle cx="377.00" cy="802.60" r="12.00" fill="#c6d4b4"/>
+<circle cx="369.00" cy="817.60" r="12.00" fill="#c6d4b4"/>
+<circle cx="368.00" cy="808.60" r="3.00" fill="#766546"/>
+<circle cx="368.00" cy="181.40" r="23.00" fill="#b8cba2" stroke="#8ea37f"/>
+<circle cx="358.00" cy="176.40" r="12.00" fill="#c6d4b4"/>
+<circle cx="377.00" cy="175.40" r="12.00" fill="#c6d4b4"/>
+<circle cx="369.00" cy="190.40" r="12.00" fill="#c6d4b4"/>
+<circle cx="368.00" cy="181.40" r="3.00" fill="#766546"/>
+<circle cx="496.00" cy="808.60" r="23.00" fill="#b8cba2" stroke="#8ea37f"/>
+<circle cx="486.00" cy="803.60" r="12.00" fill="#c6d4b4"/>
+<circle cx="505.00" cy="802.60" r="12.00" fill="#c6d4b4"/>
+<circle cx="497.00" cy="817.60" r="12.00" fill="#c6d4b4"/>
+<circle cx="496.00" cy="808.60" r="3.00" fill="#766546"/>
+<circle cx="496.00" cy="181.40" r="23.00" fill="#b8cba2" stroke="#8ea37f"/>
+<circle cx="486.00" cy="176.40" r="12.00" fill="#c6d4b4"/>
+<circle cx="505.00" cy="175.40" r="12.00" fill="#c6d4b4"/>
+<circle cx="497.00" cy="190.40" r="12.00" fill="#c6d4b4"/>
+<circle cx="496.00" cy="181.40" r="3.00" fill="#766546"/>
+<circle cx="624.00" cy="808.60" r="23.00" fill="#b8cba2" stroke="#8ea37f"/>
+<circle cx="614.00" cy="803.60" r="12.00" fill="#c6d4b4"/>
+<circle cx="633.00" cy="802.60" r="12.00" fill="#c6d4b4"/>
+<circle cx="625.00" cy="817.60" r="12.00" fill="#c6d4b4"/>
+<circle cx="624.00" cy="808.60" r="3.00" fill="#766546"/>
+<circle cx="624.00" cy="181.40" r="23.00" fill="#b8cba2" stroke="#8ea37f"/>
+<circle cx="614.00" cy="176.40" r="12.00" fill="#c6d4b4"/>
+<circle cx="633.00" cy="175.40" r="12.00" fill="#c6d4b4"/>
+<circle cx="625.00" cy="190.40" r="12.00" fill="#c6d4b4"/>
+<circle cx="624.00" cy="181.40" r="3.00" fill="#766546"/>
+<circle cx="752.00" cy="808.60" r="23.00" fill="#b8cba2" stroke="#8ea37f"/>
+<circle cx="742.00" cy="803.60" r="12.00" fill="#c6d4b4"/>
+<circle cx="761.00" cy="802.60" r="12.00" fill="#c6d4b4"/>
+<circle cx="753.00" cy="817.60" r="12.00" fill="#c6d4b4"/>
+<circle cx="752.00" cy="808.60" r="3.00" fill="#766546"/>
+<circle cx="752.00" cy="181.40" r="23.00" fill="#b8cba2" stroke="#8ea37f"/>
+<circle cx="742.00" cy="176.40" r="12.00" fill="#c6d4b4"/>
+<circle cx="761.00" cy="175.40" r="12.00" fill="#c6d4b4"/>
+<circle cx="753.00" cy="190.40" r="12.00" fill="#c6d4b4"/>
+<circle cx="752.00" cy="181.40" r="3.00" fill="#766546"/>
+<circle cx="246.40" cy="687.00" r="23.00" fill="#b8cba2" stroke="#8ea37f"/>
+<circle cx="236.40" cy="682.00" r="12.00" fill="#c6d4b4"/>
+<circle cx="255.40" cy="681.00" r="12.00" fill="#c6d4b4"/>
+<circle cx="247.40" cy="696.00" r="12.00" fill="#c6d4b4"/>
+<circle cx="246.40" cy="687.00" r="3.00" fill="#766546"/>
+<circle cx="246.40" cy="559.00" r="23.00" fill="#b8cba2" stroke="#8ea37f"/>
+<circle cx="236.40" cy="554.00" r="12.00" fill="#c6d4b4"/>
+<circle cx="255.40" cy="553.00" r="12.00" fill="#c6d4b4"/>
+<circle cx="247.40" cy="568.00" r="12.00" fill="#c6d4b4"/>
+<circle cx="246.40" cy="559.00" r="3.00" fill="#766546"/>
+<circle cx="246.40" cy="431.00" r="23.00" fill="#b8cba2" stroke="#8ea37f"/>
+<circle cx="236.40" cy="426.00" r="12.00" fill="#c6d4b4"/>
+<circle cx="255.40" cy="425.00" r="12.00" fill="#c6d4b4"/>
+<circle cx="247.40" cy="440.00" r="12.00" fill="#c6d4b4"/>
+<circle cx="246.40" cy="431.00" r="3.00" fill="#766546"/>
+<circle cx="246.40" cy="303.00" r="23.00" fill="#b8cba2" stroke="#8ea37f"/>
+<circle cx="236.40" cy="298.00" r="12.00" fill="#c6d4b4"/>
+<circle cx="255.40" cy="297.00" r="12.00" fill="#c6d4b4"/>
+<circle cx="247.40" cy="312.00" r="12.00" fill="#c6d4b4"/>
+<circle cx="246.40" cy="303.00" r="3.00" fill="#766546"/>
+<circle cx="873.60" cy="687.00" r="23.00" fill="#b8cba2" stroke="#8ea37f"/>
+<circle cx="863.60" cy="682.00" r="12.00" fill="#c6d4b4"/>
+<circle cx="882.60" cy="681.00" r="12.00" fill="#c6d4b4"/>
+<circle cx="874.60" cy="696.00" r="12.00" fill="#c6d4b4"/>
+<circle cx="873.60" cy="687.00" r="3.00" fill="#766546"/>
+<circle cx="873.60" cy="559.00" r="23.00" fill="#b8cba2" stroke="#8ea37f"/>
+<circle cx="863.60" cy="554.00" r="12.00" fill="#c6d4b4"/>
+<circle cx="882.60" cy="553.00" r="12.00" fill="#c6d4b4"/>
+<circle cx="874.60" cy="568.00" r="12.00" fill="#c6d4b4"/>
+<circle cx="873.60" cy="559.00" r="3.00" fill="#766546"/>
+<circle cx="873.60" cy="431.00" r="23.00" fill="#b8cba2" stroke="#8ea37f"/>
+<circle cx="863.60" cy="426.00" r="12.00" fill="#c6d4b4"/>
+<circle cx="882.60" cy="425.00" r="12.00" fill="#c6d4b4"/>
+<circle cx="874.60" cy="440.00" r="12.00" fill="#c6d4b4"/>
+<circle cx="873.60" cy="431.00" r="3.00" fill="#766546"/>
+<circle cx="873.60" cy="303.00" r="23.00" fill="#b8cba2" stroke="#8ea37f"/>
+<circle cx="863.60" cy="298.00" r="12.00" fill="#c6d4b4"/>
+<circle cx="882.60" cy="297.00" r="12.00" fill="#c6d4b4"/>
+<circle cx="874.60" cy="312.00" r="12.00" fill="#c6d4b4"/>
+<circle cx="873.60" cy="303.00" r="3.00" fill="#766546"/>
+<line x1="320.00" y1="231.00" x2="520.00" y2="231.00" stroke="#b0a18d" stroke-width="2" />
+<line x1="600.00" y1="231.00" x2="800.00" y2="231.00" stroke="#b0a18d" stroke-width="2" />
+<line x1="320.00" y1="759.00" x2="520.00" y2="759.00" stroke="#b0a18d" stroke-width="2" />
+<line x1="600.00" y1="759.00" x2="800.00" y2="759.00" stroke="#b0a18d" stroke-width="2" />
+<line x1="824.00" y1="735.00" x2="824.00" y2="535.00" stroke="#b0a18d" stroke-width="2" />
+<line x1="824.00" y1="455.00" x2="824.00" y2="255.00" stroke="#b0a18d" stroke-width="2" />
+<line x1="296.00" y1="735.00" x2="296.00" y2="535.00" stroke="#b0a18d" stroke-width="2" />
+<line x1="296.00" y1="455.00" x2="296.00" y2="255.00" stroke="#b0a18d" stroke-width="2" />
+<rect x="336.00" y="271.00" width="448.00" height="448.00" rx="0" fill="#bbc0c1"/>
+<rect x="384.00" y="319.00" width="352.00" height="352.00" rx="0" fill="#e8dcc1" stroke="#b5ac99"/>
+<rect x="360" y="295" width="400" height="400" fill="none" stroke="#f6f3df" stroke-width="3" stroke-dasharray="10 7"/>
+<line x1="512.00" y1="695.00" x2="600.00" y2="695.00" stroke="#596877" stroke-width="1.5" marker-end="url(#arr)"/>
+<line x1="760.00" y1="535.00" x2="760.00" y2="447.00" stroke="#596877" stroke-width="1.5" marker-end="url(#arr)"/>
+<line x1="608.00" y1="295.00" x2="520.00" y2="295.00" stroke="#596877" stroke-width="1.5" marker-end="url(#arr)"/>
+<line x1="360.00" y1="455.00" x2="360.00" y2="543.00" stroke="#596877" stroke-width="1.5" marker-end="url(#arr)"/>
+<circle cx="424.00" cy="631.00" r="19.20" fill="#afc287" stroke="#a79f8e"/>
+<circle cx="417.00" cy="627.00" r="5.00" fill="#849d65"/>
+<circle cx="431.00" cy="627.00" r="5.00" fill="#849d65"/>
+<circle cx="424.00" cy="638.00" r="5.00" fill="#849d65"/>
+<circle cx="424.00" cy="359.00" r="19.20" fill="#afc287" stroke="#a79f8e"/>
+<circle cx="417.00" cy="355.00" r="5.00" fill="#849d65"/>
+<circle cx="431.00" cy="355.00" r="5.00" fill="#849d65"/>
+<circle cx="424.00" cy="366.00" r="5.00" fill="#849d65"/>
+<circle cx="696.00" cy="631.00" r="19.20" fill="#afc287" stroke="#a79f8e"/>
+<circle cx="689.00" cy="627.00" r="5.00" fill="#849d65"/>
+<circle cx="703.00" cy="627.00" r="5.00" fill="#849d65"/>
+<circle cx="696.00" cy="638.00" r="5.00" fill="#849d65"/>
+<circle cx="696.00" cy="359.00" r="19.20" fill="#afc287" stroke="#a79f8e"/>
+<circle cx="689.00" cy="355.00" r="5.00" fill="#849d65"/>
+<circle cx="703.00" cy="355.00" r="5.00" fill="#849d65"/>
+<circle cx="696.00" cy="366.00" r="5.00" fill="#849d65"/>
+<rect x="472.00" y="644.00" width="16.00" height="6.00" rx="1" fill="#94704d"/>
+<rect x="632.00" y="644.00" width="16.00" height="6.00" rx="1" fill="#94704d"/>
+<rect x="472.00" y="340.00" width="16.00" height="6.00" rx="1" fill="#94704d"/>
+<rect x="632.00" y="340.00" width="16.00" height="6.00" rx="1" fill="#94704d"/>
+<rect x="405.00" y="567.00" width="6.00" height="16.00" rx="1" fill="#94704d"/>
+<rect x="405.00" y="407.00" width="6.00" height="16.00" rx="1" fill="#94704d"/>
+<rect x="709.00" y="567.00" width="6.00" height="16.00" rx="1" fill="#94704d"/>
+<rect x="709.00" y="407.00" width="6.00" height="16.00" rx="1" fill="#94704d"/>
+<line x1="584.00" y1="495.00" x2="720.00" y2="495.00" stroke="#c7b69b" stroke-width="1" />
+<line x1="576.97" y1="478.03" x2="712.74" y2="342.26" stroke="#c7b69b" stroke-width="1" />
+<line x1="560.00" y1="471.00" x2="560.00" y2="335.00" stroke="#c7b69b" stroke-width="1" />
+<line x1="543.03" y1="478.03" x2="407.26" y2="342.26" stroke="#c7b69b" stroke-width="1" />
+<line x1="536.00" y1="495.00" x2="400.00" y2="495.00" stroke="#c7b69b" stroke-width="1" />
+<line x1="543.03" y1="511.97" x2="407.26" y2="647.74" stroke="#c7b69b" stroke-width="1" />
+<line x1="560.00" y1="519.00" x2="560.00" y2="655.00" stroke="#c7b69b" stroke-width="1" />
+<line x1="576.97" y1="511.97" x2="712.74" y2="647.74" stroke="#c7b69b" stroke-width="1" />
+<rect x="532.40" y="467.40" width="55.20" height="55.20" rx="3" fill="#ce6654" stroke="#a84838"/>
+<rect x="536.00" y="471.00" width="48.00" height="48.00" rx="1" fill="#f3d4a4" stroke="#ab6045"/>
+<rect x="554.60" y="454.84" width="10.80" height="15.52" rx="1" fill="#ac8a66"/>
+<line x1="554.60" y1="468.14" x2="565.40" y2="468.14" stroke="#eee1cb" stroke-width="0.8" />
+<line x1="554.60" y1="465.93" x2="565.40" y2="465.93" stroke="#eee1cb" stroke-width="0.8" />
+<line x1="554.60" y1="463.71" x2="565.40" y2="463.71" stroke="#eee1cb" stroke-width="0.8" />
+<line x1="554.60" y1="461.50" x2="565.40" y2="461.50" stroke="#eee1cb" stroke-width="0.8" />
+<line x1="554.60" y1="459.28" x2="565.40" y2="459.28" stroke="#eee1cb" stroke-width="0.8" />
+<line x1="554.60" y1="457.06" x2="565.40" y2="457.06" stroke="#eee1cb" stroke-width="0.8" />
+<circle cx="560.00" cy="495.00" r="5.00" fill="#be4e35"/>
+<rect x="469.00" y="536.00" width="182.00" height="54.00" rx="6" fill="#e8dcc1"/>
+<text x="560.00" y="558.00" class="label" text-anchor="middle">盆踊りやぐら</text>
+<text x="560.00" y="581.00" class="small" text-anchor="middle">床面 6 m × 6 m</text>
+<rect x="376.20" y="721.40" width="28.80" height="24.00" rx="2" fill="#bc6047" stroke="#faf8f2"/>
+<text x="390.60" y="733.40" class="id">01</text>
+<rect x="407.00" y="721.40" width="28.80" height="24.00" rx="2" fill="#bc6047" stroke="#faf8f2"/>
+<text x="421.40" y="733.40" class="id">02</text>
+<rect x="437.80" y="721.40" width="28.80" height="24.00" rx="2" fill="#bc6047" stroke="#faf8f2"/>
+<text x="452.20" y="733.40" class="id">03</text>
+<rect x="468.60" y="721.40" width="28.80" height="24.00" rx="2" fill="#38738a" stroke="#faf8f2"/>
+<text x="483.00" y="733.40" class="id">04</text>
+<rect x="499.40" y="721.40" width="28.80" height="24.00" rx="2" fill="#bc6047" stroke="#faf8f2"/>
+<text x="513.80" y="733.40" class="id">05</text>
+<rect x="530.20" y="721.40" width="28.80" height="24.00" rx="2" fill="#38738a" stroke="#faf8f2"/>
+<text x="544.60" y="733.40" class="id">06</text>
+<rect x="561.00" y="721.40" width="28.80" height="24.00" rx="2" fill="#bc6047" stroke="#faf8f2"/>
+<text x="575.40" y="733.40" class="id">07</text>
+<rect x="591.80" y="721.40" width="28.80" height="24.00" rx="2" fill="#38738a" stroke="#faf8f2"/>
+<text x="606.20" y="733.40" class="id">08</text>
+<rect x="622.60" y="721.40" width="28.80" height="24.00" rx="2" fill="#bc6047" stroke="#faf8f2"/>
+<text x="637.00" y="733.40" class="id">09</text>
+<rect x="653.40" y="721.40" width="28.80" height="24.00" rx="2" fill="#bc6047" stroke="#faf8f2"/>
+<text x="667.80" y="733.40" class="id">10</text>
+<rect x="684.20" y="721.40" width="28.80" height="24.00" rx="2" fill="#bc6047" stroke="#faf8f2"/>
+<text x="698.60" y="733.40" class="id">11</text>
+<rect x="715.00" y="721.40" width="28.80" height="24.00" rx="2" fill="#38738a" stroke="#faf8f2"/>
+<text x="729.40" y="733.40" class="id">12</text>
+<rect x="786.40" y="650.00" width="24.00" height="28.80" rx="2" fill="#bc6047" stroke="#faf8f2"/>
+<text x="798.40" y="664.40" class="id">13</text>
+<rect x="786.40" y="619.20" width="24.00" height="28.80" rx="2" fill="#38738a" stroke="#faf8f2"/>
+<text x="798.40" y="633.60" class="id">14</text>
+<rect x="786.40" y="588.40" width="24.00" height="28.80" rx="2" fill="#bc6047" stroke="#faf8f2"/>
+<text x="798.40" y="602.80" class="id">15</text>
+<rect x="786.40" y="557.60" width="24.00" height="28.80" rx="2" fill="#38738a" stroke="#faf8f2"/>
+<text x="798.40" y="572.00" class="id">16</text>
+<rect x="786.40" y="526.80" width="24.00" height="28.80" rx="2" fill="#bc6047" stroke="#faf8f2"/>
+<text x="798.40" y="541.20" class="id">17</text>
+<rect x="786.40" y="496.00" width="24.00" height="28.80" rx="2" fill="#bc6047" stroke="#faf8f2"/>
+<text x="798.40" y="510.40" class="id">18</text>
+<rect x="786.40" y="465.20" width="24.00" height="28.80" rx="2" fill="#bc6047" stroke="#faf8f2"/>
+<text x="798.40" y="479.60" class="id">19</text>
+<rect x="786.40" y="434.40" width="24.00" height="28.80" rx="2" fill="#38738a" stroke="#faf8f2"/>
+<text x="798.40" y="448.80" class="id">20</text>
+<rect x="786.40" y="403.60" width="24.00" height="28.80" rx="2" fill="#bc6047" stroke="#faf8f2"/>
+<text x="798.40" y="418.00" class="id">21</text>
+<rect x="786.40" y="372.80" width="24.00" height="28.80" rx="2" fill="#38738a" stroke="#faf8f2"/>
+<text x="798.40" y="387.20" class="id">22</text>
+<rect x="786.40" y="342.00" width="24.00" height="28.80" rx="2" fill="#bc6047" stroke="#faf8f2"/>
+<text x="798.40" y="356.40" class="id">23</text>
+<rect x="786.40" y="311.20" width="24.00" height="28.80" rx="2" fill="#38738a" stroke="#faf8f2"/>
+<text x="798.40" y="325.60" class="id">24</text>
+<rect x="715.00" y="244.60" width="28.80" height="24.00" rx="2" fill="#bc6047" stroke="#faf8f2"/>
+<text x="729.40" y="256.60" class="id">25</text>
+<rect x="684.20" y="244.60" width="28.80" height="24.00" rx="2" fill="#bc6047" stroke="#faf8f2"/>
+<text x="698.60" y="256.60" class="id">26</text>
+<rect x="653.40" y="244.60" width="28.80" height="24.00" rx="2" fill="#bc6047" stroke="#faf8f2"/>
+<text x="667.80" y="256.60" class="id">27</text>
+<rect x="622.60" y="244.60" width="28.80" height="24.00" rx="2" fill="#38738a" stroke="#faf8f2"/>
+<text x="637.00" y="256.60" class="id">28</text>
+<rect x="591.80" y="244.60" width="28.80" height="24.00" rx="2" fill="#bc6047" stroke="#faf8f2"/>
+<text x="606.20" y="256.60" class="id">29</text>
+<rect x="561.00" y="244.60" width="28.80" height="24.00" rx="2" fill="#38738a" stroke="#faf8f2"/>
+<text x="575.40" y="256.60" class="id">30</text>
+<rect x="530.20" y="244.60" width="28.80" height="24.00" rx="2" fill="#bc6047" stroke="#faf8f2"/>
+<text x="544.60" y="256.60" class="id">31</text>
+<rect x="499.40" y="244.60" width="28.80" height="24.00" rx="2" fill="#38738a" stroke="#faf8f2"/>
+<text x="513.80" y="256.60" class="id">32</text>
+<rect x="468.60" y="244.60" width="28.80" height="24.00" rx="2" fill="#bc6047" stroke="#faf8f2"/>
+<text x="483.00" y="256.60" class="id">33</text>
+<rect x="437.80" y="244.60" width="28.80" height="24.00" rx="2" fill="#bc6047" stroke="#faf8f2"/>
+<text x="452.20" y="256.60" class="id">34</text>
+<rect x="407.00" y="244.60" width="28.80" height="24.00" rx="2" fill="#bc6047" stroke="#faf8f2"/>
+<text x="421.40" y="256.60" class="id">35</text>
+<rect x="376.20" y="244.60" width="28.80" height="24.00" rx="2" fill="#38738a" stroke="#faf8f2"/>
+<text x="390.60" y="256.60" class="id">36</text>
+<rect x="309.60" y="311.20" width="24.00" height="28.80" rx="2" fill="#bc6047" stroke="#faf8f2"/>
+<text x="321.60" y="325.60" class="id">37</text>
+<rect x="309.60" y="342.00" width="24.00" height="28.80" rx="2" fill="#38738a" stroke="#faf8f2"/>
+<text x="321.60" y="356.40" class="id">38</text>
+<rect x="309.60" y="372.80" width="24.00" height="28.80" rx="2" fill="#bc6047" stroke="#faf8f2"/>
+<text x="321.60" y="387.20" class="id">39</text>
+<rect x="309.60" y="403.60" width="24.00" height="28.80" rx="2" fill="#38738a" stroke="#faf8f2"/>
+<text x="321.60" y="418.00" class="id">40</text>
+<rect x="309.60" y="434.40" width="24.00" height="28.80" rx="2" fill="#bc6047" stroke="#faf8f2"/>
+<text x="321.60" y="448.80" class="id">41</text>
+<rect x="309.60" y="465.20" width="24.00" height="28.80" rx="2" fill="#bc6047" stroke="#faf8f2"/>
+<text x="321.60" y="479.60" class="id">42</text>
+<rect x="309.60" y="496.00" width="24.00" height="28.80" rx="2" fill="#bc6047" stroke="#faf8f2"/>
+<text x="321.60" y="510.40" class="id">43</text>
+<rect x="309.60" y="526.80" width="24.00" height="28.80" rx="2" fill="#38738a" stroke="#faf8f2"/>
+<text x="321.60" y="541.20" class="id">44</text>
+<rect x="309.60" y="557.60" width="24.00" height="28.80" rx="2" fill="#bc6047" stroke="#faf8f2"/>
+<text x="321.60" y="572.00" class="id">45</text>
+<rect x="309.60" y="588.40" width="24.00" height="28.80" rx="2" fill="#38738a" stroke="#faf8f2"/>
+<text x="321.60" y="602.80" class="id">46</text>
+<rect x="309.60" y="619.20" width="24.00" height="28.80" rx="2" fill="#bc6047" stroke="#faf8f2"/>
+<text x="321.60" y="633.60" class="id">47</text>
+<rect x="309.60" y="650.00" width="24.00" height="28.80" rx="2" fill="#38738a" stroke="#faf8f2"/>
+<text x="321.60" y="664.40" class="id">48</text>
+<line x1="360.00" y1="211.80" x2="760.00" y2="211.80" stroke="#596877" stroke-width="1.2" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<line x1="360.00" y1="206.80" x2="360.00" y2="295.00" stroke="#849096" stroke-width="1" stroke-dasharray="3 4"/>
+<line x1="760.00" y1="206.80" x2="760.00" y2="295.00" stroke="#849096" stroke-width="1" stroke-dasharray="3 4"/>
+<rect x="456.00" y="216.80" width="208.00" height="24.00" rx="4" fill="#f1f2e8"/>
+<text x="560.00" y="233.80" class="small" text-anchor="middle">50 m（通路中心線）</text>
+<line x1="736.00" y1="575.00" x2="784.00" y2="575.00" stroke="#596877" stroke-width="1.1" marker-start="url(#arr)" marker-end="url(#arr)"/>
+<rect x="743.00" y="550.00" width="34.00" height="19.00" rx="3" fill="#d1d4d2"/>
+<text x="760.00" y="564.00" class="fine" text-anchor="middle">6 m</text>
+<line x1="990.00" y1="239.00" x2="990.00" y2="191.00" stroke="#596877" stroke-width="2" marker-end="url(#arr)"/>
+<text x="990.00" y="177.00" class="small" text-anchor="middle">北 N</text>
+<text x="560.00" y="841.00" class="small" text-anchor="middle">南 01–12</text>
+<text x="996.00" y="501.00" class="small" text-anchor="middle">東</text>
+<text x="152.00" y="501.00" class="small" text-anchor="middle">西</text>
+<rect x="102.00" y="813.00" width="40.00" height="6.00" rx="0" fill="#445e64"/>
+<rect x="142.00" y="813.00" width="40.00" height="6.00" rx="0" fill="white" stroke="#445e64"/>
+<text x="102.00" y="803.00" class="fine" text-anchor="middle">0</text>
+<text x="182.00" y="803.00" class="fine" text-anchor="middle">10 m</text>
+<rect x="1090.00" y="145.00" width="840.00" height="718.00" rx="22" fill="white"/>
+<text x="1140.00" y="205.00" class="title">50 m 四方・一周 200 m</text>
+<text x="1140.00" y="249.00" class="sub">通路の中心線を基準にした、四角い周回ルート。</text>
+<text x="1140.00" y="312.00" class="label">48 店</text>
+<text x="1395.00" y="312.00" class="small">食品・飲料 30 ＋ 遊び・玩具など 18</text>
+<line x1="1140.00" y1="337.00" x2="1878.00" y2="337.00" stroke="#e6e9e5" stroke-width="1" />
+<text x="1140.00" y="392.00" class="label">6 m</text>
+<text x="1395.00" y="392.00" class="small">通路の幅。四隅もつながります。</text>
+<line x1="1140.00" y1="417.00" x2="1878.00" y2="417.00" stroke="#e6e9e5" stroke-width="1" />
+<text x="1140.00" y="472.00" class="label">約 63 m 四方</text>
+<text x="1395.00" y="472.00" class="small">屋台の外端を含めた範囲。</text>
+<line x1="1140.00" y1="497.00" x2="1878.00" y2="497.00" stroke="#e6e9e5" stroke-width="1" />
+<text x="1140.00" y="552.00" class="label">約 90 m 四方</text>
+<text x="1395.00" y="552.00" class="small">外周の樹木を含む環境全体の目安。</text>
+<line x1="1140.00" y1="615.00" x2="1878.00" y2="615.00" stroke="#e6e9e5" stroke-width="1" />
+<rect x="1140.00" y="645.00" width="21.00" height="21.00" rx="3" fill="#bc6047"/>
+<text x="1176.00" y="662.00" class="sub">食品・飲料</text>
+<rect x="1385.00" y="645.00" width="21.00" height="21.00" rx="3" fill="#38738a"/>
+<text x="1421.00" y="662.00" class="sub">遊び・玩具・駄菓子</text>
+<line x1="1140.00" y1="704.00" x2="1170.00" y2="704.00" stroke="#929a9c" stroke-width="3" stroke-dasharray="7 4"/>
+<text x="1184.00" y="710.00" class="small">破線：200 mの歩行中心線</text>
+<text x="1140.00" y="753.00" class="sub">屋台は通路の外側に、広場を向いて並びます。</text>
+<text x="1140.00" y="787.00" class="small">中央：やぐら　／　内側：ベンチと小さな植栽</text>
+<text x="1140.00" y="817.00" class="small">配置案内用の図です。樹冠や屋根の細部は省略しています。</text>
+<text x="70.00" y="921.00" class="title">店舗一覧</text>
+<text x="256.00" y="919.00" class="sub">南 → 東 → 北 → 西の順に番号を付けています。</text>
+<rect x="70.00" y="944.00" width="443.00" height="305.00" rx="14" fill="white"/>
+<text x="91.00" y="978.00" class="label">南側　01–12</text>
+<rect x="91.00" y="992.40" width="30.00" height="17.50" rx="3" fill="#bc6047"/>
+<text x="106.00" y="1001.50" class="id">01</text>
+<text x="136.00" y="1006.00" class="legend">わたあめ</text>
+<rect x="91.00" y="1012.00" width="30.00" height="17.50" rx="3" fill="#bc6047"/>
+<text x="106.00" y="1021.10" class="id">02</text>
+<text x="136.00" y="1025.60" class="legend">りんご飴</text>
+<rect x="91.00" y="1031.60" width="30.00" height="17.50" rx="3" fill="#bc6047"/>
+<text x="106.00" y="1040.70" class="id">03</text>
+<text x="136.00" y="1045.20" class="legend">焼きそば</text>
+<rect x="91.00" y="1051.20" width="30.00" height="17.50" rx="3" fill="#38738a"/>
+<text x="106.00" y="1060.30" class="id">04</text>
+<text x="136.00" y="1064.80" class="legend">射 的</text>
+<rect x="91.00" y="1070.80" width="30.00" height="17.50" rx="3" fill="#bc6047"/>
+<text x="106.00" y="1079.90" class="id">05</text>
+<text x="136.00" y="1084.40" class="legend">たこ焼き</text>
+<rect x="91.00" y="1090.40" width="30.00" height="17.50" rx="3" fill="#38738a"/>
+<text x="106.00" y="1099.50" class="id">06</text>
+<text x="136.00" y="1104.00" class="legend">金魚すくい</text>
+<rect x="91.00" y="1110.00" width="30.00" height="17.50" rx="3" fill="#bc6047"/>
+<text x="106.00" y="1119.10" class="id">07</text>
+<text x="136.00" y="1123.60" class="legend">かき氷</text>
+<rect x="91.00" y="1129.60" width="30.00" height="17.50" rx="3" fill="#38738a"/>
+<text x="106.00" y="1138.70" class="id">08</text>
+<text x="136.00" y="1143.20" class="legend">スーパーボール</text>
+<rect x="91.00" y="1149.20" width="30.00" height="17.50" rx="3" fill="#bc6047"/>
+<text x="106.00" y="1158.30" class="id">09</text>
+<text x="136.00" y="1162.80" class="legend">チョコバナナ</text>
+<rect x="91.00" y="1168.80" width="30.00" height="17.50" rx="3" fill="#bc6047"/>
+<text x="106.00" y="1177.90" class="id">10</text>
+<text x="136.00" y="1182.40" class="legend">たい焼き</text>
+<rect x="91.00" y="1188.40" width="30.00" height="17.50" rx="3" fill="#bc6047"/>
+<text x="106.00" y="1197.50" class="id">11</text>
+<text x="136.00" y="1202.00" class="legend">焼き鳥</text>
+<rect x="91.00" y="1208.00" width="30.00" height="17.50" rx="3" fill="#38738a"/>
+<text x="106.00" y="1217.10" class="id">12</text>
+<text x="136.00" y="1221.60" class="legend">ヨーヨーつり</text>
+<rect x="543.00" y="944.00" width="443.00" height="305.00" rx="14" fill="white"/>
+<text x="564.00" y="978.00" class="label">東側　13–24</text>
+<rect x="564.00" y="992.40" width="30.00" height="17.50" rx="3" fill="#bc6047"/>
+<text x="579.00" y="1001.50" class="id">13</text>
+<text x="609.00" y="1006.00" class="legend">お好み焼き</text>
+<rect x="564.00" y="1012.00" width="30.00" height="17.50" rx="3" fill="#38738a"/>
+<text x="579.00" y="1021.10" class="id">14</text>
+<text x="609.00" y="1025.60" class="legend">輪 投 げ</text>
+<rect x="564.00" y="1031.60" width="30.00" height="17.50" rx="3" fill="#bc6047"/>
+<text x="579.00" y="1040.70" class="id">15</text>
+<text x="609.00" y="1045.20" class="legend">からあげ</text>
+<rect x="564.00" y="1051.20" width="30.00" height="17.50" rx="3" fill="#38738a"/>
+<text x="579.00" y="1060.30" class="id">16</text>
+<text x="609.00" y="1064.80" class="legend">くじびき</text>
+<rect x="564.00" y="1070.80" width="30.00" height="17.50" rx="3" fill="#bc6047"/>
+<text x="579.00" y="1079.90" class="id">17</text>
+<text x="609.00" y="1084.40" class="legend">フライドポテト</text>
+<rect x="564.00" y="1090.40" width="30.00" height="17.50" rx="3" fill="#bc6047"/>
+<text x="579.00" y="1099.50" class="id">18</text>
+<text x="609.00" y="1104.00" class="legend">焼とうもろこし</text>
+<rect x="564.00" y="1110.00" width="30.00" height="17.50" rx="3" fill="#bc6047"/>
+<text x="579.00" y="1119.10" class="id">19</text>
+<text x="609.00" y="1123.60" class="legend">いか焼き</text>
+<rect x="564.00" y="1129.60" width="30.00" height="17.50" rx="3" fill="#38738a"/>
+<text x="579.00" y="1138.70" class="id">20</text>
+<text x="609.00" y="1143.20" class="legend">スマートボール</text>
+<rect x="564.00" y="1149.20" width="30.00" height="17.50" rx="3" fill="#bc6047"/>
+<text x="579.00" y="1158.30" class="id">21</text>
+<text x="609.00" y="1162.80" class="legend">みたらし団子</text>
+<rect x="564.00" y="1168.80" width="30.00" height="17.50" rx="3" fill="#38738a"/>
+<text x="579.00" y="1177.90" class="id">22</text>
+<text x="609.00" y="1182.40" class="legend">缶たおし</text>
+<rect x="564.00" y="1188.40" width="30.00" height="17.50" rx="3" fill="#bc6047"/>
+<text x="579.00" y="1197.50" class="id">23</text>
+<text x="609.00" y="1202.00" class="legend">クレープ</text>
+<rect x="564.00" y="1208.00" width="30.00" height="17.50" rx="3" fill="#38738a"/>
+<text x="579.00" y="1217.10" class="id">24</text>
+<text x="609.00" y="1221.60" class="legend">あひるすくい</text>
+<rect x="1016.00" y="944.00" width="443.00" height="305.00" rx="14" fill="white"/>
+<text x="1037.00" y="978.00" class="label">北側　25–36</text>
+<rect x="1037.00" y="992.40" width="30.00" height="17.50" rx="3" fill="#bc6047"/>
+<text x="1052.00" y="1001.50" class="id">25</text>
+<text x="1082.00" y="1006.00" class="legend">ベビーカステラ</text>
+<rect x="1037.00" y="1012.00" width="30.00" height="17.50" rx="3" fill="#bc6047"/>
+<text x="1052.00" y="1021.10" class="id">26</text>
+<text x="1082.00" y="1025.60" class="legend">焼せんべい</text>
+<rect x="1037.00" y="1031.60" width="30.00" height="17.50" rx="3" fill="#bc6047"/>
+<text x="1052.00" y="1040.70" class="id">27</text>
+<text x="1082.00" y="1045.20" class="legend">フランクフルト</text>
+<rect x="1037.00" y="1051.20" width="30.00" height="17.50" rx="3" fill="#38738a"/>
+<text x="1052.00" y="1060.30" class="id">28</text>
+<text x="1082.00" y="1064.80" class="legend">水鉄砲</text>
+<rect x="1037.00" y="1070.80" width="30.00" height="17.50" rx="3" fill="#bc6047"/>
+<text x="1052.00" y="1079.90" class="id">29</text>
+<text x="1082.00" y="1084.40" class="legend">冷やしきゅうり</text>
+<rect x="1037.00" y="1090.40" width="30.00" height="17.50" rx="3" fill="#38738a"/>
+<text x="1052.00" y="1099.50" class="id">30</text>
+<text x="1082.00" y="1104.00" class="legend">コルク的あて</text>
+<rect x="1037.00" y="1110.00" width="30.00" height="17.50" rx="3" fill="#bc6047"/>
+<text x="1052.00" y="1119.10" class="id">31</text>
+<text x="1082.00" y="1123.60" class="legend">レモネード</text>
+<rect x="1037.00" y="1129.60" width="30.00" height="17.50" rx="3" fill="#38738a"/>
+<text x="1052.00" y="1138.70" class="id">32</text>
+<text x="1082.00" y="1143.20" class="legend">千本引き</text>
+<rect x="1037.00" y="1149.20" width="30.00" height="17.50" rx="3" fill="#bc6047"/>
+<text x="1052.00" y="1158.30" class="id">33</text>
+<text x="1082.00" y="1162.80" class="legend">ラムネ</text>
+<rect x="1037.00" y="1168.80" width="30.00" height="17.50" rx="3" fill="#bc6047"/>
+<text x="1052.00" y="1177.90" class="id">34</text>
+<text x="1082.00" y="1182.40" class="legend">冷たいお茶</text>
+<rect x="1037.00" y="1188.40" width="30.00" height="17.50" rx="3" fill="#bc6047"/>
+<text x="1052.00" y="1197.50" class="id">35</text>
+<text x="1082.00" y="1202.00" class="legend">生ビール</text>
+<rect x="1037.00" y="1208.00" width="30.00" height="17.50" rx="3" fill="#38738a"/>
+<text x="1052.00" y="1217.10" class="id">36</text>
+<text x="1082.00" y="1221.60" class="legend">お め ん</text>
+<rect x="1489.00" y="944.00" width="443.00" height="305.00" rx="14" fill="white"/>
+<text x="1510.00" y="978.00" class="label">西側　37–48</text>
+<rect x="1510.00" y="992.40" width="30.00" height="17.50" rx="3" fill="#bc6047"/>
+<text x="1525.00" y="1001.50" class="id">37</text>
+<text x="1555.00" y="1006.00" class="legend">焼おにぎり</text>
+<rect x="1510.00" y="1012.00" width="30.00" height="17.50" rx="3" fill="#38738a"/>
+<text x="1525.00" y="1021.10" class="id">38</text>
+<text x="1555.00" y="1025.60" class="legend">かざぐるま</text>
+<rect x="1510.00" y="1031.60" width="30.00" height="17.50" rx="3" fill="#bc6047"/>
+<text x="1525.00" y="1040.70" class="id">39</text>
+<text x="1555.00" y="1045.20" class="legend">焼きいも</text>
+<rect x="1510.00" y="1051.20" width="30.00" height="17.50" rx="3" fill="#38738a"/>
+<text x="1525.00" y="1060.30" class="id">40</text>
+<text x="1555.00" y="1064.80" class="legend">駄 菓 子</text>
+<rect x="1510.00" y="1070.80" width="30.00" height="17.50" rx="3" fill="#bc6047"/>
+<text x="1525.00" y="1079.90" class="id">41</text>
+<text x="1555.00" y="1084.40" class="legend">いちご飴</text>
+<rect x="1510.00" y="1090.40" width="30.00" height="17.50" rx="3" fill="#bc6047"/>
+<text x="1525.00" y="1099.50" class="id">42</text>
+<text x="1555.00" y="1104.00" class="legend">ぶどう飴</text>
+<rect x="1510.00" y="1110.00" width="30.00" height="17.50" rx="3" fill="#bc6047"/>
+<text x="1525.00" y="1119.10" class="id">43</text>
+<text x="1555.00" y="1123.60" class="legend">ソフトクリーム</text>
+<rect x="1510.00" y="1129.60" width="30.00" height="17.50" rx="3" fill="#38738a"/>
+<text x="1525.00" y="1138.70" class="id">44</text>
+<text x="1555.00" y="1143.20" class="legend">おもちゃ</text>
+<rect x="1510.00" y="1149.20" width="30.00" height="17.50" rx="3" fill="#bc6047"/>
+<text x="1525.00" y="1158.30" class="id">45</text>
+<text x="1555.00" y="1162.80" class="legend">フルーツカップ</text>
+<rect x="1510.00" y="1168.80" width="30.00" height="17.50" rx="3" fill="#38738a"/>
+<text x="1525.00" y="1177.90" class="id">46</text>
+<text x="1555.00" y="1182.40" class="legend">宝石すくい</text>
+<rect x="1510.00" y="1188.40" width="30.00" height="17.50" rx="3" fill="#bc6047"/>
+<text x="1525.00" y="1197.50" class="id">47</text>
+<text x="1555.00" y="1202.00" class="legend">ほたて焼き</text>
+<rect x="1510.00" y="1208.00" width="30.00" height="17.50" rx="3" fill="#38738a"/>
+<text x="1525.00" y="1217.10" class="id">48</text>
+<text x="1555.00" y="1221.60" class="legend">お手玉投げ</text>
+<text x="70.00" y="1290.00" class="small">1 Blender Unit = 1 m　／　屋台基本区画 3.6 m × 3.0 m　／　北は Blender の +Y 方向</text>
+<text x="1930.00" y="1290.00" class="small" text-anchor="end">Original procedural scene · 2026</text>
+</svg>

@@ -1,0 +1,16 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.svg text eol=lf
+*.log text eol=lf
+
+# Store Blender scenes, their numbered backups and HDR images in Git LFS.
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.blend[0-9]* filter=lfs diff=lfs merge=lfs -text
+*.hdr filter=lfs diff=lfs merge=lfs -text
+*.exr filter=lfs diff=lfs merge=lfs -text
+
+*.png binary
+*.jpg binary
+*.jpeg binary
