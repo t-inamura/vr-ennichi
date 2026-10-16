@@ -2,7 +2,7 @@
 
 ## 保存先と方針
 
-- GitHub: **https://github.com/t-inamura/vi-ennichi**（公開）
+- GitHub: **https://github.com/t-inamura/vr-ennichi**（公開）
 - このMacの作業場所: **`~/work/vr-ennichi`**
 - 現行モデル: **`outputs/ennichi_50m.blend`**
 - ブランチ: `main`
@@ -25,7 +25,7 @@ Git LFSは大きなファイルの実体を別領域に保存し、Gitには参�
 macOSでHomebrewを使う場合は `brew install git-lfs` で導入します。他OSでは [Git LFS公式サイト](https://git-lfs.com/) のインストール方法を使います。
 
 ```sh
-git clone https://github.com/t-inamura/vi-ennichi.git vr-ennichi
+git clone https://github.com/t-inamura/vr-ennichi.git vr-ennichi
 cd vr-ennichi
 git lfs install --local
 git lfs pull

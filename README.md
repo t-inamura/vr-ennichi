@@ -1,4 +1,4 @@
-# vi-ennichi — 日本の縁日 Blender シーン
+# vr-ennichi — 日本の縁日 Blender シーン
 
 48種類の屋台と中央の盆踊りやぐらを配置した、共同研究用の3D環境です。通路中心線は一辺50 m、一周200 m、幅6 mです。
 
@@ -11,7 +11,7 @@
 モデル本体・旧版・HDRIは **Git LFS** で管理しています。取得するコンピュータにGitとGit LFSをインストールしてから、次を実行してください。
 
 ```sh
-git clone https://github.com/t-inamura/vi-ennichi.git vr-ennichi
+git clone https://github.com/t-inamura/vr-ennichi.git vr-ennichi
 cd vr-ennichi
 git lfs install --local
 git lfs pull
@@ -42,7 +42,7 @@ open -a Blender outputs/ennichi_50m.blend
 
 ## 共同作業
 
-更新・取得・復元の手順は **[GitHub管理ガイド](outputs/GITHUB_GUIDE.md)** にまとめています。リポジトリ名は `vi-ennichi`、ローカル作業フォルダ名は `vr-ennichi` です。
+更新・取得・復元の手順は **[GitHub管理ガイド](outputs/GITHUB_GUIDE.md)** にまとめています。リポジトリ名・ローカル作業フォルダ名は `vr-ennichi` です。
 
 `.blend` はバイナリのため、同じシーンの同時編集は担当を調整してください。変更時にはプレビュー画像と説明も更新すると、共同研究者が変更点を確認できます。公開リポジトリの閲覧・取得は誰でも可能ですが、直接のpushには書き込み権限が必要です。
 
