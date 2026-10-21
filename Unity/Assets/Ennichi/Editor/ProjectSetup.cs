@@ -17,7 +17,7 @@ namespace Ennichi.Editor
         [MenuItem("Ennichi/1 Create or refresh experiment scene")]
         public static void Create()
         {
-            if(Application.unityVersion!="6000.0.65f1")throw new InvalidOperationException("Pinned Editor 6000.0.65f1 required");
+            CheckEditorVersion();
             AssetDatabase.Refresh();
             PlayerSettings.companyName="TamagawaAIBot";PlayerSettings.productName="EnnichiExperiment";PlayerSettings.bundleVersion="0.1.0";
             PlayerSettings.colorSpace=ColorSpace.Linear;PlayerSettings.runInBackground=true;
@@ -59,6 +59,13 @@ namespace Ennichi.Editor
             EditorSceneManager.SaveScene(scene,"Assets/Ennichi/Scenes/Experiment.unity");
             EditorBuildSettings.scenes=new[]{new EditorBuildSettingsScene("Assets/Ennichi/Scenes/Experiment.unity",true)};
             AssetDatabase.SaveAssets();
+        }
+        // Also callable from licensed CI before model conversion and build.
+        public static void CheckEditorVersion()
+        {
+            if(!UnityVersionPolicy.IsSupported(Application.unityVersion))
+                throw new InvalidOperationException("Unsupported Unity Editor " + Application.unityVersion + ". Required: " + UnityVersionPolicy.Requirement);
+            Debug.Log("Unity Editor " + Application.unityVersion + " accepted by version policy; operation and performance still require validation.");
         }
         [MenuItem("Ennichi/2 Validate research build gate")]
         public static void Validate()

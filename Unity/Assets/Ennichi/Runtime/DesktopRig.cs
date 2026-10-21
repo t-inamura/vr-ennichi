@@ -1,5 +1,6 @@
 using UnityEngine;
 using Ennichi.Core;
+using Pose = Ennichi.Core.Pose;
 
 namespace Ennichi.Unity
 {

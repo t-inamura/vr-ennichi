@@ -14,7 +14,7 @@ namespace Ennichi.Editor
         [MenuItem("Ennichi/Run engine collision smoke checks")]
         public static void Run()
         {
-            if(Application.unityVersion!="6000.0.65f1")throw new InvalidOperationException("Wrong Editor");
+            ProjectSetup.CheckEditorVersion();
             var scene=EditorSceneManager.NewScene(NewSceneSetup.EmptyScene,NewSceneMode.Single);
             SceneDefinition.Collision();var rig=new GameObject("Smoke test rig").AddComponent<DesktopRig>();rig.Initialize(new ExperimentSettings());
             var wall=new GameObject("Smoke wall");wall.transform.position=new Vector3(3,1,-25);wall.AddComponent<BoxCollider>().size=new Vector3(.2f,2,6);

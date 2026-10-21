@@ -2,13 +2,19 @@
 
 これは**実験参加者への配布前の実装**です。Unityでのコンパイル・実機操作・描画性能と、派生モデルの見た目の承認は別の検証項目です。最新の実施結果は `VALIDATION.md` を参照してください。クラウド同期・OpenXR/HMDは実装していません。
 
-## 固定する環境
+## 対応する環境と再現条件
 
-- Unity Editor **6000.0.65f1**、Built-in Render Pipeline、C#、Windows x64/Monoを基本ターゲット。
+- Unity Editor **6000系の正式版（f）、6000.0.65f1以降**。Built-in Render Pipeline、C#、Windows x64/Monoを基本ターゲット。
 - macOSはStandaloneOSX/Monoのビルド入口を用意。実機・署名・配布・Gatekeeper対応は未検証。
 - Blender **5.2.2 LTS**（マスターと一致）、派生アセット形式2。
 - 中核テストは .NET SDK **8.0.408**。Pythonツールは標準ライブラリのみ（クラウド検証は3.12.14）。
-- Unityのパッケージは `Packages/manifest.json` / `packages-lock.json` に固定。外部レジストリのランタイム依存なし。builtinモジュールの実際の解決は最初のUnity起動で確認する。
+- Unityのパッケージ宣言は `Packages/manifest.json` / `packages-lock.json` に固定。外部レジストリのランタイム依存なし。builtinモジュールの実装は使用するEditorに依存するため、実際の解決はUnity起動時に確認する。
+
+バージョン判定は文字列の大小ではなく数値で比較する。`6000.0.65f1`、`6000.0.81f1`、`6000.0.100f1`、`6000.1.0f1`等は許可する。`6000.0.64f1`以前、6000以外の系列、alpha/beta等のプレリリース、不正な形式は拒否する。許可は動作確認済みという意味ではなく、65・81を含むUnity本体のコンパイル・描画・操作・性能は未検証。
+
+`ProjectSettings/ProjectVersion.txt` の `6000.0.65f1` はプロジェクトの基準版として残す。このファイルにバージョン範囲は記述しない。Unity Hubで使用するインストール済みの対応Editor（例：`6000.0.81f1`）を選択して開く。異なるEditorで保存した際にこのファイルが更新される場合は、変更を使用環境の記録として確認する。
+
+共同研究での再現には、ソースのフルSHAと**実際に使用したEditorの完全なバージョン**を揃える。正式な実験の `metadata.json` には既存の `unityVersion` が記録される。F2の非記録プレビューではログを作らないため、確認者がEditor版・OS・描画/操作の結果を記録する。
 
 ## 共同研究者向けの再現手順
 
@@ -17,7 +23,7 @@
 ```bash
 git clone https://github.com/t-inamura/vr-ennichi.git
 cd vr-ennichi
-git switch --track origin/codex/unity-walkthrough-logging
+git switch main
 git rev-parse HEAD  # 使用するフルSHAを実験の再現記録へ保存する。
 # 同じ版を再取得する場合は、記録したSHAを git switch --detach で指定する。
 git lfs pull --include='outputs/ennichi_50m.blend,outputs/assets/sunset.hdr'
@@ -26,7 +32,7 @@ blender --background --python tools/export_unity.py -- --appearance baked --samp
 python3 tools/check_asset.py Unity/Assets/Ennichi/Derived/ennichi_baked.ennichi
 ```
 
-1. Unity Hubで `Unity/` を6000.0.65f1として開く。マスター `.blend` はAssetsへ置かない。
+1. Unity Hubで `Unity/` を対応範囲内のインストール済みEditor（例：6000.0.81f1）で開く。6000.0.65f1の追加インストールは不要。マスター `.blend` はAssetsへ置かない。
 2. `Ennichi > 1 Create or refresh experiment scene` を実行する。派生モデル・衝突判定・開始シーン・保存先の製品名などを設定する。
 3. Sceneビューと元の `outputs/01..05` の画像を比較し、`MODEL_PIPELINE.md` の受入項目を確認する。
    Play中のF2で操作者用の歩行プレビューにも入れる（Escで戻る）。これは未承認モデルでも利用できるが、ログを記録せず、参加者実験には使わない。

@@ -13,6 +13,21 @@
 | 環境待ち | GitHub書込は実装ブランチへの登録で確認済み。Unity検証に使うライセンス済み環境は未確認。今回の復元環境には.NET SDKがなく、C#・Blenderテストは再実行していない |
 | 後続拡張 | クラウドログ同期、OpenXR、Vive/HMD、頭部/実歩行・テレポート用の入力rig（いずれも未実装/未検証） |
 
+## Unityバージョン条件の改定 — 2026-10-21
+
+- 6000.0.65f1との完全一致を、6000系正式版の6000.0.65f1以降という数値比較へ変更。6000.0.81f1を許可する。
+- 最低版の境界、81/100と後続minor版、別系列/プレリリース、不正形式/桁あふれの4テストを既存のC#テストへ追加。同じ判定ソースを.NETとUnityで使用する。
+- 通常のPR CIで判定テストを実行する。成否は対象PRのチェックとGitHub Actionsログを参照する。
+- 手動Unity CIは同じ判定をモデル変換前に実行し、使用した完全なEditor版を記録する。今回、ライセンスやクラウド設定を変更せず、この手動workflowも起動していない。
+- バージョン条件の通過はUnityでの動作保証ではない。Unity本体のコンパイル・操作・性能、照明ベイク、実行ビルドは引き続き未検証/未完了。
+
+## Macで報告されたコンパイルエラーの修正 — 2026-10-21
+
+- Unity Consoleで `DesktopRig.cs` のCS0104（`Ennichi.Core.Pose` と `UnityEngine.Pose` の同名衝突）が5件報告された。ファイル先頭に `using Pose = Ennichi.Core.Pose;` を追加し、root/camera姿勢とCaptureの戻り値・生成する型を既存のログ中核型へ明示的に解決する。
+- Unity配下の全C#ソースを点検し、両namespaceをimportして非修飾のPoseを参照する箇所がDesktopRigだけであることを確認した。
+- 点検で `EngineChecks.Run` に残っていた65固定の判定も発見し、`ProjectSetup.CheckEditorVersion` を使う共通の許容範囲に揃えた。
+- 従来の.NET CIはUnityランタイム/EditorのAPI依存コードをコンパイルしていなかったため、この型名衝突を検出できていなかった。CI成功とUnity全体のコンパイル成功を区別する。修正後のUnity再コンパイルと歩行操作は実機での確認待ち。
+
 ## 実行場所
 
 以下は2026-10-20の実装時の環境記録。タスク用 `/workspace/scratch/a7fc908df369` のUbuntu 24.04.3 LTS x86_64クラウド環境。ユーザーのMac、ブラウザ、ローカルUnity/Blender、認証情報、ローカル実行機能は使っていない。ポータブルBlender 5.2.2 LTS（build d13f752e3b9c）、.NET SDK 8.0.408/Runtime 8.0.15、Python3.12.14を利用。

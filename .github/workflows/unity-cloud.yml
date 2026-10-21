@@ -33,6 +33,8 @@ jobs:
           test -n "$BLENDER" && test -x "$BLENDER"
           mkdir -p Artifacts
           python3 -c 'import hashlib; from pathlib import Path; assert hashlib.sha256(Path("outputs/ennichi_50m.blend").read_bytes()).hexdigest()=="80f4250595674cb13faeeb7904b8536f2a2963d1924f33a440e32bb53bea4413"'
+      - name: Check Unity version policy (requires existing license)
+        run: '"$UNITY_EDITOR" -batchmode -nographics -quit -projectPath Unity -executeMethod Ennichi.Editor.ProjectSetup.CheckEditorVersion -logFile Artifacts/unity-version.log'
       - name: Prepare derived assets (CPU, no paid GPU allocation)
         run: |
           python3 tools/prepare_project.py
