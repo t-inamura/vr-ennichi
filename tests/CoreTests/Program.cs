@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using Ennichi.Core;
+using Ennichi.Editor;
 
 sealed class MemoryJournal : IJournal
 {
@@ -34,6 +35,23 @@ class Program
             if(args[0]=="--complete-probe"){e.End(.1);e.Dispose();if(e.State!=RunState.Completed)throw new Exception(e.LastError);return;}
             Environment.Exit(17); // Deliberately bypass Dispose and normal completion.
         }
+        Test("Unity minimum final-release boundary",()=>{
+            Check(UnityVersionPolicy.IsSupported("6000.0.65f1"),"minimum rejected");
+            Check(UnityVersionPolicy.IsSupported("6000.0.65f2"),"later final revision rejected");
+            Check(!UnityVersionPolicy.IsSupported("6000.0.64f99"),"older patch accepted");
+        });
+        Test("later Unity 6000 releases use numeric ordering",()=>{
+            foreach(var version in new[]{"6000.0.66f1","6000.0.81f1","6000.0.100f1","6000.1.0f1","6000.3.0f1"})
+                Check(UnityVersionPolicy.IsSupported(version),"supported version rejected: "+version);
+        });
+        Test("other Unity series and prereleases are rejected",()=>{
+            foreach(var version in new[]{"2022.3.65f1","6001.0.65f1","7000.0.65f1","6000.0.65a1","6000.0.81b1","6000.1.0b9","6000.0.81p1"})
+                Check(!UnityVersionPolicy.IsSupported(version),"unsupported version accepted: "+version);
+        });
+        Test("malformed Unity versions fail closed without throwing",()=>{
+            foreach(var version in new[]{null,"","6000.0.65","6000.0.65f0","6000.0.81f1-custom"," 6000.0.81f1","6000.0.81f1\n","6000.00.81f1","6000.0.999999999999f1","6000.999999999999.0f1","6000.0.81f999999999999"})
+                Check(!UnityVersionPolicy.IsSupported(version),"malformed version accepted: "+version);
+        });
         Test("known square path is 200 m; camera motion excluded",()=>{
             var j=new MemoryJournal();var e=Start(j,new Pose(-25,0,-25));double t=0;
             var corners=new[]{new Pose(25,0,-25),new Pose(25,0,25),new Pose(-25,0,25),new Pose(-25,0,-25)};var a=new Pose(-25,0,-25);

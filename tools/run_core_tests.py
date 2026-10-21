@@ -18,6 +18,7 @@ def main():
         command=[str(root/'dotnet'),str(sdk),'-nologo','-target:exe','-out:'+str(out)]
         command+=['-r:'+str(p) for p in sorted(ref.glob('*.dll'))]
         command+=[str(p) for p in sorted((repo/'Unity/Assets/Ennichi/Core').glob('*.cs'))]+[str(repo/'tests/CoreTests/Program.cs')]
+        command.append(str(repo/'Unity/Assets/Ennichi/Editor/UnityVersionPolicy.cs'))
         subprocess.run(command,check=True)
         out.with_suffix('.runtimeconfig.json').write_text(json.dumps({'runtimeOptions':{'tfm':'net8.0','framework':{'name':'Microsoft.NETCore.App','version':'8.0.15'}}}))
         subprocess.run([str(root/'dotnet'),str(out)],check=True)
