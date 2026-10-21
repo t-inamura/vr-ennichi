@@ -1,31 +1,24 @@
-# 権限・ライセンス待ちの引継ぎ
+# 実装復元後の引継ぎ — 2026-10-21
 
-2026-10-20にmainのHEAD `9936337b26214ed9bf2935a26b60b0754ddab140` を確認。GitHub連携のcreate_branchは403 `Resource not accessible by integration`。リモートの `codex/unity-walkthrough-logging` ブランチもPRも作成していない。push=trueというユーザー権限表示は連携アプリの書込可否を保証しない。
+保存済みソースZIPのバイナリ対応パッチから実装を復元し、`codex/unity-walkthrough-logging` ブランチへGitHub連携で登録した。76ファイルすべてのSHA-256と完全なGitツリーの一致を確認済み。復元内容は[復元記録](RESTORATION_2026-10-21.md)、検証範囲は[検証記録](VALIDATION.md)を参照。
 
-クラウド内の作業ブランチで実装し、差分をgit patchとソースアーカイブにまとめる。mainへ直接変更しない。別認証・トークン・ユーザーPCで権限を回避しない。
+- 元のベース：`9936337b26214ed9bf2935a26b60b0754ddab140`
+- 元の未pushコミット：`efad6d996fc00767758ac9bd229080140919aa14`
+- GitHubへ登録した復元コミット：`1a37e9bc0c8fd5b24bdf945c42f85608bc86ce38`
 
-## GitHubに必要な対応
+2026-10-20のブランチ作成403は、ユーザーによるGitHub Appの設定後に解消した。2026-10-21にはCI定義を含む実装コミットの登録・ブランチ更新も成功した。クラウドのGitコマンドには認証が設定されていなかったため、登録には既存のGitHub連携を利用した。新しい認証情報の作成や、秘密トークンの受け渡しは行っていない。
 
-接続中のGitHub Appで `t-inamura/vr-ennichi` が書込対象に含まれることと、Contents: read/write、Pull requests: read/writeを確認する。CIワークフロー追加にはWorkflowsへの書込権限も必要になる。アプリの権限を設定画面で増やせない場合、対応する接続/権限のあるレビュー経路が必要。秘密トークンをチャットへ貼らない。
+## ソースの取得とレビュー
 
-権限が用意された後、最新mainとの差分を再確認し、実装ブランチへコミットを登録してdraft PRを作る。`PR_BODY.md` にレビュー用説明を準備してある。完成扱いでmergeしない。
+`README_UNITY_日本語.md` の手順で実装ブランチを取得し、使用するフルSHAを記録する。レビューにはこのブランチからmainへ向けたDraft PRを使い、未検証項目を確認してから次の作業を決める。実装を取得済みのブランチに同じ復元パッチを重複適用しない。
 
-配布patchを別の許可された環境で適用する場合の手順（このタスクでローカルPCを使ったという意味ではない）：
+ソースZIPは元のベースに追加・変更したファイルだけを含む。マスター・元の制作履歴・完全なGit履歴は含まない。約114MBの派生アセットZIPは形状確認用であり、忠実な材質再現・照明ベイク・Unity確認は未完了。派生バイナリはGitの対象から外したまま別管理する。
 
-```bash
-git switch -c codex/unity-walkthrough-logging 9936337b26214ed9bf2935a26b60b0754ddab140
-git am /path/to/ennichi-implementation.patch
-# 最新mainに変更があれば、差分を確認して通常のrebase/mergeで解消する。
-```
+## Unity検証を再開する際の条件
 
-ソースzipは同じbaseに追加・変更したファイルだけを同梱し、マスターや既存の制作履歴を再配布しない。派生アセットzipはリポジトリrootで展開し、`Unity/Assets/Ennichi/Derived/` へ置く。派生バイナリは再生成可能でサイズが大きいためGitの対象から外している。配置後に `prepare_project.py` とUnityのsetupを実行する。
+1. ライセンス済みのUnity 6000.0.65f1と、Windows Build Support（Mono）、必要ならMac Build Support（Mono）を利用できる環境を確認する。ユーザーの許可により手元PCも選択できるが、今回の復元では操作していない。
+2. `unity-cloud.yml` を使う場合は、既存のLinux x64クラウドrunnerに `ennichi-unity-cloud` ラベルが必要。このworkflowをユーザーPCへ無断で接続しない。新規VM・課金契約は事前確認する。
+3. クラウドworkflowの `ENNICHI_UNITY_EDITOR`、`ENNICHI_BLENDER`、`ENNICHI_CLOUD_ENABLED` は、実行環境と運用が確認できてから設定する。今回これらは変更していない。
+4. Unityのコンパイル、衝突・操作・保存・性能、モデルの見た目、照明ベイクを確認する。ライセンス、ビルドモジュール、モデル承認が不足した状態をビルド成功と扱わない。
 
-## Unityクラウドに必要な対応
-
-1. Unity 6000.0.65f1とWindows Build Support（Mono）、必要ならMac Build Support（Mono）を使える、ライセンス済みのクラウド環境を指定する。既存の契約・ライセンス条件を確認する。
-2. GitHub Actionsを使うなら、**ユーザーPCではない**Linux x64クラウドrunnerへ `ennichi-unity-cloud` ラベルを付ける。新規VM/課金契約は事前に確認する。
-3. リポジトリ変数 `ENNICHI_UNITY_EDITOR` と `ENNICHI_BLENDER` にそのクラウド環境の実行ファイルパスを設定。明示的に運用を許可した後だけ `ENNICHI_CLOUD_ENABLED=true` にする。
-4. 必要なら `ennichi-cloud` environmentに承認者を設定。ライセンスはrunner側で安全に用意し、リポジトリやログへ含めない。Personal/Pro等の利用可否やライセンス取得をこのタスクでは判断・代行していない。
-5. 手動workflowを起動。ライセンス、インポート、コンパイル、native physics checks、視覚承認のどれかが満たされなければビルド成功にしない。
-
-このタスクで有料サービス・VM/GPUの新規起動・GitHub設定・Unityライセンスの変更は実施していない。クラウド内の無料で入手できるポータブルBlender/.NETを使用した。ユーザーのローカルPC、ブラウザ、認証情報、Unity/Blenderには接続していない。
+ソース共有とUnityでの受入検証は別の完了条件である。参加者向けに配布できる実行ファイルはまだ作成していない。クラウド同期・OpenXR・Vive対応も今回の実装範囲外。

@@ -12,13 +12,14 @@
 
 ## 共同研究者向けの再現手順
 
-以下は権限・ライセンス・対象モジュールが用意された**後の手順**です。このタスクでユーザーPCを操作したという意味ではありません。
+以下はUnityライセンス・対象モジュールが用意された**後の手順**です。利用許可された手元PCまたはクラウド環境で実施できます。今回の復元作業ではユーザーPCを操作していません。ソースのGitHub反映は完了していますが、Unityでのコンパイル・操作・性能・ビルドは未検証です。
 
 ```bash
 git clone https://github.com/t-inamura/vr-ennichi.git
 cd vr-ennichi
-# 実装ブランチ/PRが公開された後にそのcommitをcheckoutする。
-# 公開前の成果物を使う場合は HANDOFF.md に従う。
+git switch --track origin/codex/unity-walkthrough-logging
+git rev-parse HEAD  # 使用するフルSHAを実験の再現記録へ保存する。
+# 同じ版を再取得する場合は、記録したSHAを git switch --detach で指定する。
 git lfs pull --include='outputs/ennichi_50m.blend,outputs/assets/sunset.hdr'
 python3 tools/prepare_project.py
 blender --background --python tools/export_unity.py -- --appearance baked --samples 16 --output Unity/Assets/Ennichi/Derived/ennichi_baked.ennichi
