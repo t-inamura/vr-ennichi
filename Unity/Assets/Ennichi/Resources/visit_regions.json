@@ -1,0 +1,484 @@
+{
+  "regions": [
+    {
+      "id": 1,
+      "name": "わたあめ",
+      "kind": "cotton_candy",
+      "side": "南",
+      "x": -21.175,
+      "z": -27.1,
+      "halfX": 1.5,
+      "halfZ": 1.0
+    },
+    {
+      "id": 2,
+      "name": "りんご飴",
+      "kind": "apple_candy",
+      "side": "南",
+      "x": -17.325,
+      "z": -27.1,
+      "halfX": 1.5,
+      "halfZ": 1.0
+    },
+    {
+      "id": 3,
+      "name": "焼きそば",
+      "kind": "yakisoba",
+      "side": "南",
+      "x": -13.475,
+      "z": -27.1,
+      "halfX": 1.5,
+      "halfZ": 1.0
+    },
+    {
+      "id": 4,
+      "name": "射 的",
+      "kind": "shooting",
+      "side": "南",
+      "x": -9.625,
+      "z": -27.1,
+      "halfX": 1.5,
+      "halfZ": 1.0
+    },
+    {
+      "id": 5,
+      "name": "たこ焼き",
+      "kind": "takoyaki",
+      "side": "南",
+      "x": -5.775,
+      "z": -27.1,
+      "halfX": 1.5,
+      "halfZ": 1.0
+    },
+    {
+      "id": 6,
+      "name": "金魚すくい",
+      "kind": "goldfish",
+      "side": "南",
+      "x": -1.925,
+      "z": -27.1,
+      "halfX": 1.5,
+      "halfZ": 1.0
+    },
+    {
+      "id": 7,
+      "name": "かき氷",
+      "kind": "kakigori",
+      "side": "南",
+      "x": 1.925,
+      "z": -27.1,
+      "halfX": 1.5,
+      "halfZ": 1.0
+    },
+    {
+      "id": 8,
+      "name": "スーパーボール",
+      "kind": "superball",
+      "side": "南",
+      "x": 5.775,
+      "z": -27.1,
+      "halfX": 1.5,
+      "halfZ": 1.0
+    },
+    {
+      "id": 9,
+      "name": "チョコバナナ",
+      "kind": "choco_banana",
+      "side": "南",
+      "x": 9.625,
+      "z": -27.1,
+      "halfX": 1.5,
+      "halfZ": 1.0
+    },
+    {
+      "id": 10,
+      "name": "たい焼き",
+      "kind": "taiyaki",
+      "side": "南",
+      "x": 13.475,
+      "z": -27.1,
+      "halfX": 1.5,
+      "halfZ": 1.0
+    },
+    {
+      "id": 11,
+      "name": "焼き鳥",
+      "kind": "yakitori",
+      "side": "南",
+      "x": 17.325,
+      "z": -27.1,
+      "halfX": 1.5,
+      "halfZ": 1.0
+    },
+    {
+      "id": 12,
+      "name": "ヨーヨーつり",
+      "kind": "yoyo",
+      "side": "南",
+      "x": 21.175,
+      "z": -27.1,
+      "halfX": 1.5,
+      "halfZ": 1.0
+    },
+    {
+      "id": 13,
+      "name": "お好み焼き",
+      "kind": "okonomiyaki",
+      "side": "東",
+      "x": 27.1,
+      "z": -21.175,
+      "halfX": 1.0,
+      "halfZ": 1.5
+    },
+    {
+      "id": 14,
+      "name": "輪 投 げ",
+      "kind": "ring_toss",
+      "side": "東",
+      "x": 27.1,
+      "z": -17.325,
+      "halfX": 1.0,
+      "halfZ": 1.5
+    },
+    {
+      "id": 15,
+      "name": "からあげ",
+      "kind": "karaage",
+      "side": "東",
+      "x": 27.1,
+      "z": -13.475,
+      "halfX": 1.0,
+      "halfZ": 1.5
+    },
+    {
+      "id": 16,
+      "name": "くじびき",
+      "kind": "lottery",
+      "side": "東",
+      "x": 27.1,
+      "z": -9.625,
+      "halfX": 1.0,
+      "halfZ": 1.5
+    },
+    {
+      "id": 17,
+      "name": "フライドポテト",
+      "kind": "potato",
+      "side": "東",
+      "x": 27.1,
+      "z": -5.775,
+      "halfX": 1.0,
+      "halfZ": 1.5
+    },
+    {
+      "id": 18,
+      "name": "焼とうもろこし",
+      "kind": "corn",
+      "side": "東",
+      "x": 27.1,
+      "z": -1.925,
+      "halfX": 1.0,
+      "halfZ": 1.5
+    },
+    {
+      "id": 19,
+      "name": "いか焼き",
+      "kind": "ikayaki",
+      "side": "東",
+      "x": 27.1,
+      "z": 1.925,
+      "halfX": 1.0,
+      "halfZ": 1.5
+    },
+    {
+      "id": 20,
+      "name": "スマートボール",
+      "kind": "smartball",
+      "side": "東",
+      "x": 27.1,
+      "z": 5.775,
+      "halfX": 1.0,
+      "halfZ": 1.5
+    },
+    {
+      "id": 21,
+      "name": "みたらし団子",
+      "kind": "dango",
+      "side": "東",
+      "x": 27.1,
+      "z": 9.625,
+      "halfX": 1.0,
+      "halfZ": 1.5
+    },
+    {
+      "id": 22,
+      "name": "缶たおし",
+      "kind": "can_knockdown",
+      "side": "東",
+      "x": 27.1,
+      "z": 13.475,
+      "halfX": 1.0,
+      "halfZ": 1.5
+    },
+    {
+      "id": 23,
+      "name": "クレープ",
+      "kind": "crepe",
+      "side": "東",
+      "x": 27.1,
+      "z": 17.325,
+      "halfX": 1.0,
+      "halfZ": 1.5
+    },
+    {
+      "id": 24,
+      "name": "あひるすくい",
+      "kind": "rubber_duck",
+      "side": "東",
+      "x": 27.1,
+      "z": 21.175,
+      "halfX": 1.0,
+      "halfZ": 1.5
+    },
+    {
+      "id": 25,
+      "name": "ベビーカステラ",
+      "kind": "baby_castella",
+      "side": "北",
+      "x": 21.175,
+      "z": 27.1,
+      "halfX": 1.5,
+      "halfZ": 1.0
+    },
+    {
+      "id": 26,
+      "name": "焼せんべい",
+      "kind": "rice_cracker",
+      "side": "北",
+      "x": 17.325,
+      "z": 27.1,
+      "halfX": 1.5,
+      "halfZ": 1.0
+    },
+    {
+      "id": 27,
+      "name": "フランクフルト",
+      "kind": "frankfurt",
+      "side": "北",
+      "x": 13.475,
+      "z": 27.1,
+      "halfX": 1.5,
+      "halfZ": 1.0
+    },
+    {
+      "id": 28,
+      "name": "水鉄砲",
+      "kind": "water_pistol",
+      "side": "北",
+      "x": 9.625,
+      "z": 27.1,
+      "halfX": 1.5,
+      "halfZ": 1.0
+    },
+    {
+      "id": 29,
+      "name": "冷やしきゅうり",
+      "kind": "cucumber",
+      "side": "北",
+      "x": 5.775,
+      "z": 27.1,
+      "halfX": 1.5,
+      "halfZ": 1.0
+    },
+    {
+      "id": 30,
+      "name": "コルク的あて",
+      "kind": "cork_target",
+      "side": "北",
+      "x": 1.925,
+      "z": 27.1,
+      "halfX": 1.5,
+      "halfZ": 1.0
+    },
+    {
+      "id": 31,
+      "name": "レモネード",
+      "kind": "lemonade",
+      "side": "北",
+      "x": -1.925,
+      "z": 27.1,
+      "halfX": 1.5,
+      "halfZ": 1.0
+    },
+    {
+      "id": 32,
+      "name": "千本引き",
+      "kind": "senbonbiki",
+      "side": "北",
+      "x": -5.775,
+      "z": 27.1,
+      "halfX": 1.5,
+      "halfZ": 1.0
+    },
+    {
+      "id": 33,
+      "name": "ラムネ",
+      "kind": "ramune",
+      "side": "北",
+      "x": -9.625,
+      "z": 27.1,
+      "halfX": 1.5,
+      "halfZ": 1.0
+    },
+    {
+      "id": 34,
+      "name": "冷たいお茶",
+      "kind": "tea",
+      "side": "北",
+      "x": -13.475,
+      "z": 27.1,
+      "halfX": 1.5,
+      "halfZ": 1.0
+    },
+    {
+      "id": 35,
+      "name": "生ビール",
+      "kind": "beer",
+      "side": "北",
+      "x": -17.325,
+      "z": 27.1,
+      "halfX": 1.5,
+      "halfZ": 1.0
+    },
+    {
+      "id": 36,
+      "name": "お め ん",
+      "kind": "masks",
+      "side": "北",
+      "x": -21.175,
+      "z": 27.1,
+      "halfX": 1.5,
+      "halfZ": 1.0
+    },
+    {
+      "id": 37,
+      "name": "焼おにぎり",
+      "kind": "yakionigiri",
+      "side": "西",
+      "x": -27.1,
+      "z": 21.175,
+      "halfX": 1.0,
+      "halfZ": 1.5
+    },
+    {
+      "id": 38,
+      "name": "かざぐるま",
+      "kind": "pinwheel",
+      "side": "西",
+      "x": -27.1,
+      "z": 17.325,
+      "halfX": 1.0,
+      "halfZ": 1.5
+    },
+    {
+      "id": 39,
+      "name": "焼きいも",
+      "kind": "sweet_potato",
+      "side": "西",
+      "x": -27.1,
+      "z": 13.475,
+      "halfX": 1.0,
+      "halfZ": 1.5
+    },
+    {
+      "id": 40,
+      "name": "駄 菓 子",
+      "kind": "dagashi",
+      "side": "西",
+      "x": -27.1,
+      "z": 9.625,
+      "halfX": 1.0,
+      "halfZ": 1.5
+    },
+    {
+      "id": 41,
+      "name": "いちご飴",
+      "kind": "strawberry_candy",
+      "side": "西",
+      "x": -27.1,
+      "z": 5.775,
+      "halfX": 1.0,
+      "halfZ": 1.5
+    },
+    {
+      "id": 42,
+      "name": "ぶどう飴",
+      "kind": "candied_grapes",
+      "side": "西",
+      "x": -27.1,
+      "z": 1.925,
+      "halfX": 1.0,
+      "halfZ": 1.5
+    },
+    {
+      "id": 43,
+      "name": "ソフトクリーム",
+      "kind": "soft_serve",
+      "side": "西",
+      "x": -27.1,
+      "z": -1.925,
+      "halfX": 1.0,
+      "halfZ": 1.5
+    },
+    {
+      "id": 44,
+      "name": "おもちゃ",
+      "kind": "toy_sword",
+      "side": "西",
+      "x": -27.1,
+      "z": -5.775,
+      "halfX": 1.0,
+      "halfZ": 1.5
+    },
+    {
+      "id": 45,
+      "name": "フルーツカップ",
+      "kind": "fruit_cup",
+      "side": "西",
+      "x": -27.1,
+      "z": -9.625,
+      "halfX": 1.0,
+      "halfZ": 1.5
+    },
+    {
+      "id": 46,
+      "name": "宝石すくい",
+      "kind": "gem_scoop",
+      "side": "西",
+      "x": -27.1,
+      "z": -13.475,
+      "halfX": 1.0,
+      "halfZ": 1.5
+    },
+    {
+      "id": 47,
+      "name": "ほたて焼き",
+      "kind": "grilled_scallop",
+      "side": "西",
+      "x": -27.1,
+      "z": -17.325,
+      "halfX": 1.0,
+      "halfZ": 1.5
+    },
+    {
+      "id": 48,
+      "name": "お手玉投げ",
+      "kind": "beanbag",
+      "side": "西",
+      "x": -27.1,
+      "z": -21.175,
+      "halfX": 1.0,
+      "halfZ": 1.5
+    }
+  ]
+}

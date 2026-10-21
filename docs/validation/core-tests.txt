@@ -1,0 +1,24 @@
+PASS known square path is 200 m; camera motion excluded
+PASS entry, dwell, exit, revisit
+PASS boundary oscillation uses exit hysteresis
+PASS pass-through and speed exceedance never imply dwell
+PASS interrupting established dwell closes it exactly once
+PASS 20 Hz scheduler on 60 Hz observation keeps intended count
+PASS pause duration never completes dwell
+PASS focus gain stays paused; input clears
+PASS long frame gap pauses, records missed slots, never backfills
+PASS sub-gap sample delays use actual observed times
+PASS reset does not add distance, closes region and pauses
+PASS teleport excluded from walking distance
+PASS write and flush failures latch fault, never complete
+PASS regressing time is rejected
+PASS invalid settings rejected
+PASS CSV escapes Japanese, quotes, newlines and commas
+PASS disk journal, CSV export and completion audit
+PASS abnormal close remains incomplete; torn tail is rejected
+PASS tampered sequence prevents audit
+PASS filesystem preflight rejects a file used as a directory
+TOTAL 20 tests passed
+PASS: real subprocess exit without Dispose remains incomplete; durable prefix readable
+PASS: C# normal completion validates in Python with metadata/CSV hashes
+PASS: changing metadata invalidates completion

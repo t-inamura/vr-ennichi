@@ -1,0 +1,16 @@
+socket(): Operation not permitted
+socket(): Operation not permitted
+00:00.372  blend            | Read blend: "/workspace/scratch/a7fc908df369/repo/outputs/ennichi_50m.blend"
+SOURCE 11177 render geometry 11063 processing 11063
+PREPARED 0
+PREPARED 1000
+PREPARED 2000
+PREPARED 3000
+PREPARED 4000
+PREPARED 5000
+PREPARED 6000
+PREPARED 7000
+PREPARED 8000
+PREPARED 9000
+PREPARED 10000
+PREPARED 11000

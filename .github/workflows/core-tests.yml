@@ -1,0 +1,27 @@
+name: Research data core tests
+on:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  core:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          lfs: false
+      - uses: actions/setup-dotnet@67a3573c9a986a3f9c594539f4ab511d57bb3ce9 # v4
+        with:
+          dotnet-version: '8.0.408'
+      - name: Test production C# core (no Unity license required)
+        run: dotnet run --project tests/CoreTests/CoreTests.csproj
+      - name: Test subprocess exit and cross-language audit
+        run: python3 tools/run_core_tests.py --sdk-root "$DOTNET_ROOT"
+      - name: Test region definitions and crash recovery
+        run: python3 -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Reproduce configuration assets
+        run: |
+          python3 tools/prepare_project.py
+          git diff --exit-code -- Unity/Assets/Ennichi/Resources Unity/Packages

@@ -1,0 +1,30 @@
+{
+  "base_commit": "9936337b26214ed9bf2935a26b60b0754ddab140",
+  "original_commit": "efad6d996fc00767758ac9bd229080140919aa14",
+  "restored_commit": "9ac98b35eb3fa8840239185c97b3ecafb11c41af",
+  "restored_tree": "1bc362964c681a3280e1d2544dd51a631b70c4a7",
+  "checked_files": 76,
+  "checksum_mismatches": [],
+  "possible_secret_files": [],
+  "added": 74,
+  "modified": 2,
+  "changed_count": 76,
+  "protected_source_changes": "",
+  "working_tree_clean": true,
+  "source_zip_sha256": "0eaac13fbc954220f5b86b21f3153c6968d9f8f183b5ed3d3d496727a12ca801",
+  "date": "2026-10-21",
+  "verification_point": "restored implementation before documentation updates",
+  "remote_restoration_commit": "1a37e9bc0c8fd5b24bdf945c42f85608bc86ce38",
+  "remote_tree_verified": true,
+  "python_tests_rerun": {
+    "passed": 6,
+    "failed": 0
+  },
+  "dotnet_sdk_available_in_recovery_environment": false,
+  "csharp_tests_rerun_in_recovery_environment": false,
+  "blender_tests_rerun_in_recovery_environment": false,
+  "unity_executed": false,
+  "unity_build_created": false,
+  "master_lfs_payload_revalidated": false,
+  "git_write_method": "GitHub connector; regular git push lacked configured authentication"
+}

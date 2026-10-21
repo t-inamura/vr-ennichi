@@ -1,0 +1,1 @@
+{"name":"Ennichi.Editor","references":["Ennichi.Core","Ennichi.Runtime"],"includePlatforms":["Editor"]}

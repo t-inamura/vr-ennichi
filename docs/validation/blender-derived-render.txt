@@ -1,0 +1,10 @@
+socket(): Operation not permitted
+socket(): Operation not permitted
+00:00.493  blend            | Read blend: "/workspace/scratch/a7fc908df369/repo/outputs/ennichi_50m.blend"
+/workspace/scratch/a7fc908df369/repo/tools/render_derived_check.py:22: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat=bpy.data.materials.new('Derived vertex emission');mat.use_nodes=True;nodes=mat.node_tree.nodes;nodes.clear()
+LOADED CHUNK 0
+00:14.378  render           | Saved: '/workspace/scratch/a7fc908df369/repo/docs/validation/derived-preview-check.png'
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)
+
+Blender quit

@@ -1,0 +1,60 @@
+name: Licensed Unity cloud checks and build (manual only)
+on:
+  workflow_dispatch:
+    inputs:
+      target:
+        description: Build target (modules must already be installed)
+        required: true
+        default: Windows
+        type: choice
+        options: [Windows, Mac]
+permissions:
+  contents: read
+jobs:
+  unity:
+    # A cloud runner must be explicitly provisioned/authorized by the repository owner.
+    # Never attach the participant PC or a personal computer to this label.
+    if: vars.ENNICHI_CLOUD_ENABLED == 'true'
+    runs-on: [self-hosted, Linux, X64, ennichi-unity-cloud]
+    environment: ennichi-cloud
+    timeout-minutes: 120
+    env:
+      UNITY_EDITOR: ${{ vars.ENNICHI_UNITY_EDITOR }}
+      BLENDER: ${{ vars.ENNICHI_BLENDER }}
+      TARGET: ${{ inputs.target }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          lfs: true
+      - name: Check explicitly configured cloud toolchain
+        shell: bash
+        run: |
+          test -n "$UNITY_EDITOR" && test -x "$UNITY_EDITOR"
+          test -n "$BLENDER" && test -x "$BLENDER"
+          mkdir -p Artifacts
+          python3 -c 'import hashlib; from pathlib import Path; assert hashlib.sha256(Path("outputs/ennichi_50m.blend").read_bytes()).hexdigest()=="80f4250595674cb13faeeb7904b8536f2a2963d1924f33a440e32bb53bea4413"'
+      - name: Prepare derived assets (CPU, no paid GPU allocation)
+        run: |
+          python3 tools/prepare_project.py
+          "$BLENDER" --background --python tools/export_unity.py -- --appearance baked --samples 16 --output Unity/Assets/Ennichi/Derived/ennichi_baked.ennichi
+          python3 tools/check_asset.py Unity/Assets/Ennichi/Derived/ennichi_baked.ennichi > Artifacts/model-validation.json
+      - name: Unity native physics checks (requires existing license)
+        run: '"$UNITY_EDITOR" -batchmode -nographics -quit -projectPath Unity -executeMethod Ennichi.Editor.EngineChecks.Run -logFile Artifacts/unity-checks.log'
+      - name: Build only with matching visual review
+        shell: bash
+        run: |
+          if [ "$TARGET" = Windows ]; then
+            METHOD=Ennichi.Editor.ProjectSetup.BuildWindows
+          else
+            METHOD=Ennichi.Editor.ProjectSetup.BuildMac
+          fi
+          "$UNITY_EDITOR" -batchmode -nographics -quit -projectPath Unity -executeMethod "$METHOD" -logFile Artifacts/unity-build.log
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        if: always()
+        with:
+          name: unity-${{ inputs.target }}-${{ github.sha }}
+          path: |
+            Artifacts/
+            Unity/Builds/
+          if-no-files-found: error
+          retention-days: 14

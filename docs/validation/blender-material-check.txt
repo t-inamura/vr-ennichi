@@ -1,0 +1,6 @@
+socket(): Operation not permitted
+socket(): Operation not permitted
+PASS Blender: object-level material override, per-face slot indices, shared source isolation
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)
+
+Blender quit

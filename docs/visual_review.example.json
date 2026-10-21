@@ -1,0 +1,7 @@
+{
+  "approved": false,
+  "derivedSha256": "COPY_THE_ACTUAL_REVIEWED_ASSET_SHA256",
+  "reviewer": "",
+  "utc": "",
+  "notes": "Record reference views, signage, material differences, sky alignment, coordinate/collision checks and target-PC performance. Do not approve without inspecting the actual asset."
+}

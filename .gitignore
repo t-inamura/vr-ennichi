@@ -14,3 +14,49 @@ work/output_script_cache/
 .agents/
 
 # Intentionally track work/, logs, previews, previous models and .blend1 backups.
+
+# Unity generated caches and local binaries. Authored Assets and settings remain tracked.
+Unity/[Ll]ibrary/
+Unity/[Tt]emp/
+Unity/[Oo]bj/
+Unity/[Ll]ogs/
+Unity/UserSettings/
+Unity/MemoryCaptures/
+Unity/Builds/
+Unity/*.csproj
+Unity/*.sln
+**/bin/
+**/obj/
+Builds/
+
+# Participant data NEVER belongs in the public repository (including accidental copies).
+**/Sessions/
+**/sessions/
+**/participant_logs/
+**/journal.csv
+**/trajectory.csv
+**/events.csv
+**/recovered_trajectory.csv
+**/recovered_events.csv
+**/complete.json
+**/complete.json.tmp
+**/INCOMPLETE
+**/source_metadata.json
+**/session_metadata.json
+**/metadata.json
+**/recovery.json
+*.ulf
+*.alf
+*.pem
+*.pfx
+
+# Reproducible derived binary assets are delivered separately; CI builds them from the master.
+Unity/Assets/Ennichi/Derived/*.ennichi
+Unity/Assets/Ennichi/Derived/*.ennichi.meta
+Unity/Assets/Ennichi/Derived/*.report.json
+Unity/Assets/Ennichi/Derived/*.report.json.meta
+Unity/Assets/Ennichi/Derived/sky.hdr
+Unity/Assets/Ennichi/Derived/sky.hdr.meta
+Unity/Assets/Ennichi/Resources/EnnichiEnvironment.prefab*
+Unity/Assets/Ennichi/Resources/SceneEvidence.asset*
+Unity/Assets/Ennichi/Resources/EnnichiSky.mat*

@@ -1,0 +1,34 @@
+socket(): Operation not permitted
+socket(): Operation not permitted
+00:00.394  blend            | Read blend: "/workspace/scratch/a7fc908df369/repo/outputs/ennichi_50m.blend"
+SOURCE 11177 render geometry 11063 processing 11063
+PREPARED 0
+PREPARED 1000
+PREPARED 2000
+PREPARED 3000
+PREPARED 4000
+PREPARED 5000
+PREPARED 6000
+PREPARED 7000
+PREPARED 8000
+PREPARED 9000
+PREPARED 10000
+PREPARED 11000
+/workspace/scratch/a7fc908df369/repo/tools/export_unity.py:40: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if mat and mat.use_nodes:
+EXPORTED 0
+EXPORTED 1000
+EXPORTED 2000
+EXPORTED 3000
+EXPORTED 4000
+EXPORTED 5000
+EXPORTED 6000
+EXPORTED 7000
+EXPORTED 8000
+EXPORTED 9000
+EXPORTED 10000
+EXPORTED 11000
+DONE /workspace/scratch/a7fc908df369/repo/Unity/Assets/Ennichi/Derived/ennichi_preview.ennichi bytes 109505700 triangles 6194911
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:34:58)
+
+Blender quit
