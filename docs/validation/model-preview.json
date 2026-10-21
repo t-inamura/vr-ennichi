@@ -1,0 +1,27 @@
+{
+  "status": "structural_pass",
+  "appearance": "preview",
+  "visual_approved": false,
+  "vertices": 8804564,
+  "triangles": 6194911,
+  "chunks": 352,
+  "stalls": 48,
+  "bounds_unity_m": [
+    [
+      -750.0,
+      -0.550000011920929,
+      -750.0
+    ],
+    [
+      750.0,
+      11.002097129821777,
+      750.0
+    ]
+  ],
+  "color_range": [
+    0.008999999612569809,
+    1.0
+  ],
+  "sha256": "6b84dbd68c98292bcdaac71bcd9632e4296d0bba25b6abaef21d5a913b816c70",
+  "bytes": 109505700
+}

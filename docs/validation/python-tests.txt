@@ -1,0 +1,11 @@
+test_compaction_keeps_material_variant_color (test_tools.ToolTests.test_compaction_keeps_material_variant_color) ... ok
+test_existing_recovery_output_refused (test_tools.ToolTests.test_existing_recovery_output_refused) ... ok
+test_false_completion_is_invalid (test_tools.ToolTests.test_false_completion_is_invalid) ... ok
+test_final_utf8_damage_retains_prior_rows (test_tools.ToolTests.test_final_utf8_damage_retains_prior_rows) ... ok
+test_recovery_valid_prefix_and_truncated_multiline_tail (test_tools.ToolTests.test_recovery_valid_prefix_and_truncated_multiline_tail) ... ok
+test_regions_all_sides_and_no_overlap (test_tools.ToolTests.test_regions_all_sides_and_no_overlap) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.002s
+
+OK

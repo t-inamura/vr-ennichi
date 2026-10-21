@@ -1,0 +1,17 @@
+{
+  "sampleHz": 20,
+  "walkSpeed": 1.25,
+  "eyeHeight": 1.65,
+  "fieldOfView": 60,
+  "turnDegreesPerSecond": 75,
+  "lookDegreesPerSecond": 45,
+  "dwellSpeed": 0.3,
+  "dwellSeconds": 3,
+  "hysteresis": 0.15,
+  "flushSeconds": 1,
+  "maxFrameGap": 0.25,
+  "applicationVersion": "0.1.0",
+  "sceneVersion": "ennichi-9936337-v1",
+  "logVersion": "1.0.0",
+  "visitRuleVersion": "rect-hysteresis-low-speed-v1"
+}
